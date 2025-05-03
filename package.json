@@ -1,12 +1,15 @@
 {
-  "name": "vue2-portfolio",
+  "name": "portfolio",
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "homepage": "https://AKABOUR.github.io/PortFolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
@@ -19,6 +22,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.4",
+    "gh-pages": "^6.3.0",
     "vite": "^5.4.8"
   }
 }
