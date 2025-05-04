@@ -7,7 +7,7 @@
       <h2 class="text-highlight-1 section-title">LOISIRES</h2>
       <div id="icons-list">
         <div class="hobie-container">
-          <img class="hobie-icon" src="@/assets/football.gif" alt="Football" />
+          <img class="hobie-icon" src="@/assets/football.png" alt="Football" />
           <span>Football</span>
         </div>
         <div class="hobie-container">
