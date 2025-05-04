@@ -4,11 +4,13 @@
         link: String,
         alt: String
     })
+    // Import dynamique
+const imageUrl = new URL(`/src/assets/${props.img}.png`, import.meta.url).href
 </script>
 
 <template>
     <a :href="props.link" target="_blank">
-        <img class="social-img" :src="`/src/assets/${props.img}.png`" :alt="props.alt" width="32px"/>
+        <img class="social-img" :src="imageUrl" :alt="props.alt" width="32px"/>
     </a>
 </template>
 
